@@ -5,6 +5,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
+            newTodo: '',
             todolist: [
                 {
                     text: 'fare la spesa',
@@ -28,6 +29,12 @@ createApp({
     methods: {
         deleteTodo(elementTodoDelete){
             this.todolist.splice(elementTodoDelete, 1)
+        },
+        addTodo(){
+            if(this.newTodo.trim() != ''){
+                this.todolist.push(this.newTodo);
+                this.newTodo = '';
+            }
         }
     }
 }).mount('#app');
