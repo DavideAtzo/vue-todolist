@@ -1,10 +1,16 @@
 'use strict';
 
-const { createApp } = Vue
+const {createApp} = Vue;
+
 createApp({
-    data() {
+    data(){
         return {
+            todolist: [
+                'fare la spesa',
+                'andare al parco',
+                'giocare a calcetto',
+                'fare una passeggiata'
+            ]
         }
     },
-}
-).mount('#app');
+}).mount('#app');

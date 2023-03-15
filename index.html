@@ -25,11 +25,9 @@
             </div>
             <div class="row justify-content-center">
                 <ul class="list-group col-md-6">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                    <li class="list-group-item">A fourth item</li>
-                    <li class="list-group-item">And a fifth one</li>
+                    <li v-for="(todo, index) in todolist" class="list-group-item">
+                        <div>{{ todo }} </div>
+                    </li>
                 </ul>
             </div>
         </div>
