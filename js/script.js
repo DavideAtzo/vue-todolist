@@ -1,15 +1,27 @@
 'use strict';
 
-const {createApp} = Vue;
+const { createApp } = Vue;
 
 createApp({
-    data(){
+    data() {
         return {
             todolist: [
-                'fare la spesa',
-                'andare al parco',
-                'giocare a calcetto',
-                'fare una passeggiata'
+                {
+                    text: 'fare la spesa',
+                    done: true,
+                },
+                {
+                    text: 'andare al parco',
+                    done: false,
+                },
+                {
+                    text: 'giocare a calcetto',
+                    done: false,
+                },
+                {
+                    text: 'fare una passeggiata',
+                    done: true,
+                }
             ]
         }
     },
