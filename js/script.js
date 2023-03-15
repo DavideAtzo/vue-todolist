@@ -26,9 +26,8 @@ createApp({
         }
     },
     methods: {
-        deleteTodo(elementTodoDelete, i){
-            console.log('mi stai cancellando')
-            this.todolist.splice(elementTodoDelete)
+        deleteTodo(elementTodoDelete){
+            this.todolist.splice(elementTodoDelete, 1)
         }
     }
 }).mount('#app');
