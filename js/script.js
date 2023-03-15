@@ -25,4 +25,10 @@ createApp({
             ]
         }
     },
+    methods: {
+        deleteTodo(elementTodoDelete, i){
+            console.log('mi stai cancellando')
+            this.todolist.splice(elementTodoDelete)
+        }
+    }
 }).mount('#app');
