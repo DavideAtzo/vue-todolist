@@ -21,3 +21,7 @@ Step-4: condizione che se la proprietà done è uguale a true, visualizzare il t
  Step-1: aggiungo una free icon (X) nell'elemento 'li';
  Step-2: creo un methods che cancellerà l'elemento al click sull'icona X,
  Step-3: attacco il comando vue @click all'icona che si collegerà a quella funzione;
+
+ <!-- MILESTONE 3 -->
+Step-1: inserisco un input prima della lista con tasto aggiungi;
+Step-2: creo nuova variabile vuota dove andrà il nuovo Todo scritto in input e visualizzato nel DOM;
