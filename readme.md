@@ -25,3 +25,6 @@ Step-4: condizione che se la proprietà done è uguale a true, visualizzare il t
  <!-- MILESTONE 3 -->
 Step-1: inserisco un input prima della lista con tasto aggiungi;
 Step-2: creo nuova variabile vuota dove andrà il nuovo Todo scritto in input e visualizzato nel DOM;
+
+<!-- Bonus -->
+1: oltre al click sul pulsante, intercettare anche il tasto ENTER per aggiungere il todo alla lista
