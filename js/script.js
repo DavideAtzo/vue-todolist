@@ -33,7 +33,7 @@ createApp({
         },
         addTodo() {
             if (this.newTodo.trim() != '') {
-                this.todolist.push({ text: this.newTodo })
+                this.todolist.push({ text: this.newTodo, done: false })
                 this.newTodo = '';
             }
         }
