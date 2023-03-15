@@ -1,2 +1,10 @@
 'use strict';
-alert('todolist')
+
+const { createApp } = Vue
+createApp({
+    data() {
+        return {
+        }
+    },
+}
+).mount('#app');
