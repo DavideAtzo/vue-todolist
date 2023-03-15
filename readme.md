@@ -16,4 +16,8 @@ Step-1: struttura html lista (ul > li);
 Step-2: collegare con vuejs il file html e il file javascript (createApp); all'interno di data() inserire un array (todo) formato da due proprietà (text, 'done' che comprenderà un valore booleano);
 Step-3: con un ciclo stampare tutti gli elementi contenenti nell'array nell'html;
 Step-4: condizione che se la proprietà done è uguale a true, visualizzare il testo del todo sbarrato.
- 
+
+<!-- MILESTONE 2 -->
+ Step-1: aggiungo una free icon (X) nell'elemento 'li';
+ Step-2: creo un methods che cancellerà l'elemento al click sull'icona X,
+ Step-3: attacco il comando vue @click all'icona che si collegerà a quella funzione;
